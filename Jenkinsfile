@@ -69,7 +69,7 @@ pipeline {
 
                     docker run -d \
                         --name jenkins-pipeline-demo \
-                        -p 3000:3000 \
+                        -p 3001:3000 \
                         ${IMAGE_NAME}:${IMAGE_TAG}
                 '''
 
